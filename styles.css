@@ -32,7 +32,7 @@
 /* TT Firs Neue (istenirse kullanmak için hazır) */
 @font-face {
     font-family: "TT Firs Neue";
-    src: url("assets/fonts/TT Firs Neue Trial Light.ttf") format("truetype");
+    src: url(".assets/fonts/TT Firs Neue Trial Light.ttf") format("truetype");
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -40,7 +40,7 @@
 
 @font-face {
     font-family: "TT Firs Neue";
-    src: url("assets/fonts/TT Firs Neue Trial Regular.ttf") format("truetype");
+    src: url(".assets/fonts/TT Firs Neue Trial Regular.ttf") format("truetype");
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -48,7 +48,7 @@
 
 @font-face {
     font-family: "TT Firs Neue";
-    src: url("assets/fonts/TT Firs Neue Trial Bold.ttf") format("truetype");
+    src: url(".s/fonts/TT Firs Neue Trial Bold.ttf") format("truetype");
     font-weight: 700;
     font-style: normal;
     font-display: swap;
