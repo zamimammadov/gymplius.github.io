@@ -4,41 +4,40 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>GymPlius</title>
-    <link rel="icon" type="image/png" href="assets/logos.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>GymPlius Sporto Klubas 24/7</title>
 
-    <link rel="stylesheet" href="styles.css" />
-    
+    <link rel="icon" type="image/png" href="assets/logos.png">
+
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Montserrat:wght@600;700;800;900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@600;700;800;900&display=swap"
         rel="stylesheet">
 
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
-    <!-- Top floating header (MERGED + FIXED) -->
+    <!-- Header -->
     <header class="gpHeader">
         <div class="gpHeader__container">
             <div class="gpBar">
-                <!-- Left dark logo block -->
+                <!-- Logo block -->
                 <a class="gpLogo" href="#" aria-label="Home">
                     <img src="assets/logo.png" alt="Gymplius logo" class="gpLogo__img">
                 </a>
 
-
-                <!-- White area -->
+                <!-- White main bar -->
                 <div class="gpMain">
                     <nav class="gpNav" aria-label="Primary">
                         <a class="gpNav__link gpNav__link--buy" href="#buy">
                             <svg class="gpIcon gpIcon--cart" viewBox="0 0 24 24" aria-hidden="true">
                                 <path
                                     d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2Zm10 0c-1.1 0-1.99.9-1.99 2S15.9 22 17 22s2-.9 2-2-.9-2-2-2ZM6.2 6h15.3l-1.35 7.2a2 2 0 0 1-2 1.6H8.1a2 2 0 0 1-2-1.6L4.1 2H1V0h4.8l.4 2Z"
-                                    fill="none" stroke="#00AEEF"  stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" />
+                                    fill="none" stroke="#00AEEF" stroke-width="1.6" stroke-linejoin="round"
+                                    stroke-linecap="round" />
                             </svg>
                             BUY
                         </a>
@@ -56,7 +55,7 @@
                                 aria-expanded="false" data-ddbtn>
                                 GYMS
                                 <svg class="gpIcon gpIcon--chev" viewBox="0 0 24 24" aria-hidden="true">
-                                    <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
+                                    <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor"; stroke-width="2"
                                         stroke-linecap="round" stroke-linejoin="round" />
                                 </svg>
                             </button>
@@ -107,8 +106,8 @@
         </div>
     </header>
 
-    <!-- HERO / slider -->
     <main>
+        <!-- HERO / slider -->
         <section class="hero" aria-label="Promotions">
             <div class="hero__bg" data-hero-bg></div>
 
@@ -124,46 +123,41 @@
                                 stroke-linecap="round" stroke-linejoin="round" />
                         </svg>
                     </button>
-                
+
                     <button class="sliderBtn sliderBtn--next" type="button" aria-label="Next" data-next>
                         <svg class="sliderArrowLong" viewBox="0 0 160 24" aria-hidden="true">
-                            
                             <path d="M5 12 H90" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" />
-                            
-                            <path d="M80 4 L95 12 L80 20" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round" />
+                            <path d="M80 4 L95 12 L80 20" fill="none" stroke="#ffffff" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
                         </svg>
-
                     </button>
                 </div>
-
             </div>
 
-            
             <!-- Diagonal triangle divider -->
             <svg class="hpCut" viewBox="0 0 1440 200" preserveAspectRatio="none" aria-hidden="true">
                 <path d="M0,56 L370,160 L1440,56 L1440,200 L0,200 Z"></path>
             </svg>
-
         </section>
-        <!-- STATS (hero'nun altındaki beyaz kısım) -->
+
+        <!-- STATS -->
         <section class="stats" aria-label="Club stats">
             <div class="stats__wrap">
                 <div class="stat">
                     <div class="stat__num">24/7</div>
                     <div class="stat__label">ALL CLUBS<br>OPENING HOURS</div>
                 </div>
-        
+
                 <div class="stat">
                     <div class="stat__num">35</div>
                     <div class="stat__label">CLUBS<br>IN 10 CITIES</div>
                 </div>
-        
+
                 <div class="stat">
                     <div class="stat__num">4400</div>
                     <div class="stat__label">GROUP<br>WORKOUTS</div>
                 </div>
-        
+
                 <div class="stat">
                     <div class="stat__num">400</div>
                     <div class="stat__label">QUALIFIED<br>TRAINERS</div>
@@ -171,42 +165,51 @@
             </div>
         </section>
 
-        <!-- PRICES section -->
         <!-- PRICES HERO -->
         <section id="prices" class="priceHero">
             <div class="priceHero__inner">
-                <!-- SOL TARAF -->
+                <!-- Left side -->
                 <div class="priceHero__left">
                     <p class="priceHero__kicker">CHOOSE MEMBERSHIP</p>
                     <h1 class="priceHero__heading">PRICES</h1>
-        
-                    <div class="priceHero__nav">
-                        <button class="priceHero__arrow" type="button" data-price-prev aria-label="Previous">
-                            <span class="priceHero__arrowIcon">&#10094;</span>
+
+                    <div class="priceHero__nav" aria-label="Price slider controls">
+                        <button class="priceHeroBtn priceHeroBtn--prev" type="button" aria-label="Previous" data-price-prev>
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M14.5 5.5 L8 12 L14.5 18.5" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
                         </button>
-                        <button class="priceHero__arrow" type="button" data-price-next aria-label="Next">
-                            <span class="priceHero__arrowIcon">&#10095;</span>
+                    
+                        <button class="priceHeroBtn priceHeroBtn--next" type="button" aria-label="Next" data-price-next>
+                            <svg class="priceHeroArrowLong" viewBox="0 0 160 24" aria-hidden="true">
+                                <!-- yatay çizgi -->
+                                <path d="M5 12 H90" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" />
+                                <!-- üçgen ok -->
+                                <path d="M80 4 L95 12 L80 20" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
                         </button>
                     </div>
-        
+
+
                     <a href="#prices-cards" class="priceHero__btn">
                         COMPARE PLANS
                     </a>
-        
-                    <!-- KENDİ FOTOĞRAFIN: yolu değiştir -->
-                    <img src="./assets/prices-athlete.png" alt="Training man" class="priceHero__img">
+
+                    
                 </div>
-        
-                <!-- SAĞ TARAF: KARTLAR -->
+
+                <!-- Right side: cards -->
                 <div class="priceHero__right" id="prices-cards">
                     <div class="priceHero__cards">
-                        <!-- KART 1 -->
+                        <!-- Card 1 -->
                         <article class="priceCard priceCard--plan is-active" data-plan>
                             <div class="priceCard__badge">SALE</div>
                             <h2 class="priceCard__title">
                                 December<br>Easy
                             </h2>
-        
+
                             <ul class="priceCard__list">
                                 <li>Recovery+ zone 9 mth</li>
                                 <li>Reformer+ zone 9 mth</li>
@@ -220,7 +223,7 @@
                                 <li>Holiday up to 30 days</li>
                                 <li>Membership rewriting</li>
                             </ul>
-        
+
                             <div class="priceCard__prices">
                                 <div class="priceCard__now">
                                     <span class="priceCard__nowMain">21,90</span>
@@ -228,17 +231,17 @@
                                 </div>
                                 <div class="priceCard__old">39,90 €/mth.</div>
                             </div>
-        
+
                             <button class="priceCard__btn" type="button">BUY</button>
                         </article>
-        
-                        <!-- KART 2 -->
+
+                        <!-- Card 2 -->
                         <article class="priceCard priceCard--plan" data-plan>
                             <div class="priceCard__badge">SALE</div>
                             <h2 class="priceCard__title">
                                 December<br>Start
                             </h2>
-        
+
                             <ul class="priceCard__list">
                                 <li>Recovery+ zone 9 mth</li>
                                 <li>24/7 access</li>
@@ -249,7 +252,7 @@
                                 <li>Holiday up to 30 days</li>
                                 <li>Membership rewriting</li>
                             </ul>
-        
+
                             <div class="priceCard__prices">
                                 <div class="priceCard__now">
                                     <span class="priceCard__nowMain">15,90</span>
@@ -257,11 +260,11 @@
                                 </div>
                                 <div class="priceCard__old">26,90 €/mth.</div>
                             </div>
-        
+
                             <button class="priceCard__btn" type="button">BUY</button>
                         </article>
-        
-                        <!-- KART 3 (Flexi) -->
+
+                        <!-- Card 3 (Flexi) -->
                         <article class="priceCard priceCard--plan" data-plan>
                             <h2 class="priceCard__title">“Flexi”</h2>
                             <p class="priceCard__subtitle">
@@ -271,19 +274,18 @@
                                 For an additional fee, you can<br>
                                 choose the options you need
                             </p>
-        
+
                             <div class="priceCard__prices priceCard__prices--flexi">
                                 <div class="priceCard__from">
                                     from <span>36.90 €/mth</span>
                                 </div>
                             </div>
-        
+
                             <button class="priceCard__btn" type="button">BUY</button>
                         </article>
-        
-                        <!-- SAĞ SÜTUN: GIFTS + FREE TRIAL -->
+
+                        <!-- Right column: gifts + free trial -->
                         <div class="priceSideCol">
-                            <!-- Gift vouchers -->
                             <article class="priceCard priceCard--side">
                                 <h2 class="priceCard__title">Gift<br>vouchers</h2>
                                 <p class="priceCard__text">
@@ -291,8 +293,7 @@
                                 </p>
                                 <button class="priceCard__btn" type="button">BUY</button>
                             </article>
-        
-                            <!-- Free trial -->
+
                             <article class="priceCard priceCard--side">
                                 <h2 class="priceCard__title">Free trial</h2>
                                 <p class="priceCard__text">
@@ -304,17 +305,21 @@
                     </div>
                 </div>
             </div>
-        
-            <!-- ALTTAKİ ÜÇGEN KESİK (istersen) -->
-            <svg class="hpCut" viewBox="0 0 100 10" preserveAspectRatio="none" aria-hidden="true">
-                <path d="M0 10 L100 0 L100 10 Z"></path>
+
+            <!-- Bottom triangle -->
+            <svg class="hpCut" viewBox="0 0 1440 200" preserveAspectRatio="none" aria-hidden="true">
+                <path d="M0,56 L370,160 L1440,56 L1440,200 L0,200 Z"></path>
             </svg>
         </section>
 
-
         <!-- MAP / gyms -->
         <section id="map" class="map">
+            <div class="mapLabel">GYMS</div>
+        
             <div class="mapFrame" role="region" aria-label="Map">
+                <!-- NEW: overlay -->
+                <div class="mapCover" data-map-cover></div>
+        
                 <iframe title="Map"
                     src="https://www.openstreetmap.org/export/embed.html?bbox=20.8%2C54.9%2C27.0%2C56.8&amp;layer=mapnik"
                     loading="lazy">
@@ -324,93 +329,155 @@
             <svg class="hpCut" viewBox="0 0 1440 200" preserveAspectRatio="none" aria-hidden="true">
                 <path d="M0,56 L370,160 L1440,56 L1440,200 L0,200 Z"></path>
             </svg>
+            
         </section>
 
-        <!-- FAQ preview -->
+
+        <!-- FAQ -->
         <section id="faq" class="faq">
             <div class="faq__wrap">
-                <div class="faq__kicker">USEFUL INFORMATION</div>
-                <h2 class="faq__title">FAQ</h2>
+        
+                <!-- SOL BLOK -->
+                <div class="faq__left">
+                    <p class="faq__kicker">USEFUL INFORMATION</p>
+                    <h2 class="faq__title">FAQ</h2>
+        
+                    <!-- ALL CATEGORIES seçici -->
+                    <button class="faqFilter" type="button">
+                        ALL CATEGORIES
+                        <span class="faqFilter__chev"></span>
+                    </button>
+        
+                    <!-- oklar -->
+                    <div class="faqNav" aria-label="FAQ slider controls">
+                        <!-- SOL OK -->
+                        <button class="priceHeroBtn priceHeroBtn--prev" type="button" aria-label="Previous FAQ page" data-faq-prev>
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M14.5 5.5 L8 12 L14.5 18.5" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                    
+                        <!-- SAĞ UZUN OK -->
+                        <button class="priceHeroBtn priceHeroBtn--next" type="button" aria-label="Next FAQ page" data-faq-next>
+                            <svg class="priceHeroArrowLong" viewBox="0 0 160 24" aria-hidden="true">
+                                <!-- yatay çizgi -->
+                                <path d="M5 12 H90" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" />
+                                <!-- üçgen ok -->
+                                <path d="M80 4 L95 12 L80 20" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                    </div>
 
-                <div class="faqGrid">
-                    <button class="faqCard" type="button"><span class="faqCard__plus">+</span> First visit or entry
-                        ways</button>
-                    <button class="faqCard" type="button"><span class="faqCard__plus">+</span> Group trainings and
-                        personal trainers</button>
-                    <button class="faqCard" type="button"><span class="faqCard__plus">+</span> Membership
-                        actions</button>
-                    <button class="faqCard" type="button"><span class="faqCard__plus">+</span> How to enter the gym at
-                        night?</button>
+
+
+
+        
+                    <!-- MORE butonu -->
+                    <a href="#faq" class="faqMoreBtn">
+                        MORE
+                        <span>›</span>
+                    </a>
                 </div>
-            </div>
-        </section>
-
-        <!-- Gallery strip -->
-        <section class="gallery" aria-label="Gallery">
-            <div class="gallery__wrap">
-                <div class="thumbs">
-                    <div class="thumb"></div>
-                    <div class="thumb"></div>
-                    <div class="thumb"></div>
-                    <div class="thumb"></div>
-                    <div class="thumb thumb--big"></div>
-                    <div class="thumb"></div>
-                    <div class="thumb"></div>
-                    <div class="thumb"></div>
-                    <div class="thumb"></div>
-                    <div class="thumb"></div>
-                    <div class="thumb thumb--wide"></div>
-                    <div class="thumb"></div>
-                </div>
-
-                <div class="partners">
-                    <div class="partners__title">Partners</div>
-                    <div class="logos">
-                        <div class="logoBox">ZALIA GIRIA</div>
-                        <div class="logoBox">Activus</div>
-                        <div class="logoBox">Rezus</div>
-                        <div class="logoBox">SONY MUSIC</div>
-                        <div class="logoBox">DERMEDIC</div>
-                        <div class="logoBox">SUN 365</div>
+        
+                <!-- SAĞ BLOK: kartlar -->
+                <div class="faq__right">
+                    <div class="faqGrid">
+                        <button class="faqCard" type="button">
+                            <img src="assets/logos.png" alt="" class="faqCard__plus">
+                            <span class="faqCard__text">Payments</span>
+                        </button>
+        
+                        <button class="faqCard" type="button">
+                            <img src="assets/logos.png" alt="" class="faqCard__plus">
+                            <span class="faqCard__text">Merch</span>
+                        </button>
+        
+                        <button class="faqCard" type="button">
+                            <img src="assets/logos.png" alt="" class="faqCard__plus">
+                            <span class="faqCard__text">Training and trainers</span>
+                        </button>
+        
+                        <button class="faqCard" type="button">
+                            <img src="assets/logos.png" alt="" class="faqCard__plus">
+                            <span class="faqCard__text">Group workouts</span>
+                        </button>
+        
+                        <button class="faqCard" type="button">
+                            <img src="assets/logos.png" alt="" class="faqCard__plus">
+                            <span class="faqCard__text">Solarium</span>
+                        </button>
+        
+                        <button class="faqCard" type="button">
+                            <img src="assets/logos.png" alt="" class="faqCard__plus">
+                            <span class="faqCard__text">Mobile app</span>
+                        </button>
+        
+                        <button class="faqCard" type="button">
+                            <img src="assets/logos.png" alt="" class="faqCard__plus">
+                            <span class="faqCard__text">Invitations</span>
+                        </button>
+        
+                        <button class="faqCard" type="button">
+                            <img src="assets/logos.png" alt="" class="faqCard__plus">
+                            <span class="faqCard__text">Registration of membership</span>
+                        </button>
                     </div>
                 </div>
+        
             </div>
         </section>
+
     </main>
+    <svg class="footerCut" viewBox="0 0 1440 450" preserveAspectRatio="none" aria-hidden="true">
+        <path d="
+            M0,450      
+            L0,450      
+            L370,30   
+            L1440,450   
+            L1440,450   
+            Z"></path>
+    </svg>
+
+
+
+
+
 
     <!-- Footer -->
     <footer class="footer">
         <div class="footer__wrap">
-    
-            <!-- LEFT: brand + contact + review button -->
+            <!-- Left -->
             <div class="footer__brand">
+                
                 <div class="brand__pill brand__pill--footer">
                     gym<span class="brand__plus">+</span>
                 </div>
-    
+
                 <div class="footer__small">
                     <div>+370 614 33555</div>
                     <div>info@gymplius.lt</div>
                 </div>
-    
+
                 <a class="btnGhost btnGhost--footer" href="#review">WRITE A REVIEW</a>
             </div>
-    
-            <!-- MIDDLE: columns -->
+
+            <!-- Middle -->
             <div class="footer__cols">
                 <div class="col">
                     <div class="col__title">PRICES</div>
                     <a href="#prices">Memberships</a>
                     <a href="#prices">Gift coupons</a>
                 </div>
-    
+
                 <div class="col">
                     <div class="col__title">SERVICES</div>
                     <a href="#services">Solariums</a>
                     <a href="#services">Saunas</a>
                     <a href="#services">Group workouts</a>
                 </div>
-    
+
                 <div class="col">
                     <div class="col__title">FAQ</div>
                     <a href="#faq">Rules</a>
@@ -418,7 +485,7 @@
                     <a href="#faq">and disputes</a>
                     <a href="#faq">Become a trainer</a>
                 </div>
-    
+
                 <div class="col">
                     <div class="col__title">SCHEDULE</div>
                     <a href="#schedule">Schedule</a>
@@ -426,12 +493,12 @@
                     <a href="#contacts">Contacts</a>
                 </div>
             </div>
-    
-            <!-- RIGHT: subscribe + socials + info -->
+
+            <!-- Right -->
             <div class="footer__right">
                 <div class="footer__subscribe">
                     <div class="col__title">NEWS SUBSCRIPTION</div>
-    
+
                     <form class="footerForm">
                         <input type="email" class="footerForm__input" placeholder="Your e-mail address">
                         <button class="footerForm__btn" type="submit" aria-label="Subscribe">
@@ -442,21 +509,20 @@
                             </svg>
                         </button>
                     </form>
-    
+
                     <label class="footerAgree">
                         <input type="checkbox">
                         <span>I agree to <a href="#privacy">privacy policy</a></span>
                     </label>
                 </div>
-    
-                <!-- icons column + text column -->
+
                 <div class="footer__rightBottom">
                     <div class="footerSocial">
                         <a href="#" aria-label="Facebook">f</a>
                         <a href="#" aria-label="Instagram">ig</a>
                         <a href="#" aria-label="YouTube">▶</a>
                     </div>
-    
+
                     <div class="footerInfo">
                         <span>© 2025. Gym+</span>
                         <a href="#privacy">Privacy Policy</a>
@@ -466,8 +532,8 @@
             </div>
         </div>
     </footer>
-    
+
     <script src="app.js"></script>
-    </body>
-    
-    </html>
+</body>
+
+</html>
